@@ -10,10 +10,17 @@ body{
   
 }
 .container {
+
         margin: 0 auto;
         max-width: 800px;
          padding: 5px;
       }
+
+.row-fluid {
+  background-color: #DBEAF3;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 h1 {
 color: #fff;
@@ -143,8 +150,13 @@ top: 0px;
 }
 
 .main {
-  background-color: #fff;
+background-color: #262626;
+  color: #fff;
  padding: 30px;
+
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
   text-align: justify;
  -webkit-column-count: 3;
  -moz-column-count: 3;
@@ -155,9 +167,14 @@ top: 0px;
  -webkit-column-rule-width: 2em;
  -moz-column-rule-width: 2em;
   column-rule: 2em;
- 
 
 }
+
+
+ p ~ img {
+  border: 1px solid #ccc;
+    background: #fff;
+  } 
 
 
 
