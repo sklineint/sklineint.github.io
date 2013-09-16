@@ -1,0 +1,10 @@
+name: skline interiors
+markdown: redcarpet
+pygments: true
+
+auto: true
+name: sklineint
+url: http://sklineint.github.io
+description: Jekyll blog is ninja
+github: sklineint
+
