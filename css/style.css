@@ -14,6 +14,19 @@ body{
         max-width: 1000px;
          padding: 5px;
       }
+@font-face {
+  font-family: 'Frank the Architect';
+  src: url('/fonts/frankthearchitect.ttf');
+}
+
+
+#title{
+   font-family:  'frank the Architect', 'Helvetica', serif;
+       font-size:2em;
+       font-weight: 100;
+       color:#f6031a; 
+
+}
 
 .row-fluid {
   max-width: 1000px;
