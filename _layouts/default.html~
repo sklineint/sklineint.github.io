@@ -13,6 +13,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/fonts/Skeksis.ttf" type="text/css">
          <script type="text/javascript" src="/js/bootstrap.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	 <link rel="stylesheet" type="text/css" href="http://font.googleapis.com/css?family=Helvetica">
@@ -28,15 +29,15 @@
     <body>
        <div class="container">
 
-    <h1><img src="/images/skyline.jpg" width="50" height="50"><em> SKYLINE DESIGNS </em> </h1>
+   <h1 id="title"><img src="/images/skyline.jpg" width="50" height="50"> <em> SKYLINE INTERIORS </em> </h1>
       <div class="ringMenu">
 
 <ul>
-  <li class="home"><a href="#main">home</a></li>
-  <li class="vaastu"><a href="#top">services</a></li>
-  <li class="services"><a href="#right">clients</a></li>
-  <li class="portfolio"><a href="#bottom">about us</a></li>
-  <li class="contact"><a href="#left">contact us</a></li>
+  <li class="home"><a href="/">home</a></li>
+  <li class="vaastu"><a href="/services/">services</a></li>
+  <li class="services"><a href="/clients/">clients</a></li>
+  <li class="portfolio"><a href="/about/">about us</a></li>
+  <li class="contact"><a href="/contact/">contact us</a></li>
 </ul>
 </div>
 </div>
