@@ -4,142 +4,97 @@ title: skline interiors
 ---
 
 <section class="content">
-   <div class="container">
+<div class="container">
+
     <div class="main1">
    <div class="row-fluid">
-        <div class="span6">          
+    <div class="span12">  
+    <br>    
+<br><br><br>
+     
+          <style type="text/css">
 
-<style type="text/css">
+  #stage4 {
+    margin: 1em auto;
+    width: 900px;
+    height: 300px;
 
-  #stage3 {
-    padding-top: 150px;
-    margin: .750em auto 1em 50%;
-    height: 504px;
-    -webkit-perspective: 1200px;
-    -webkit-perspective-origin: 0 90px;
-    -moz-perspective: 1200px;
-    -moz-perspective-origin: 0 90px;
-    -ms-perspective: 1200px;
-    -ms-perspective-origin: 0 90px;
   }
-
-  #rotator3 a {
+  #stage4 a {  
     position: absolute;
-    left: -151px;
-    -moz-transform-style: preserve-3d;
+    left: 182px;
+   
   }
-  #rotator3 a img {
+   #stage4 a img {
+    
     padding: 10px;
     border: 1px solid #ccc;
     background: #fff;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
   }
 
-  #rotator3 a:nth-of-type(1) img {
-    -webkit-transform: rotateX(-90deg) translateZ(200px);
-    -moz-transform: rotateX(-90deg) translateZ(200px);
-    -ms-transform: rotateX(-90deg) translateZ(200px);
+  #stage4 a:nth-of-type(1) {
+    -webkit-animation-name: fader;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: fader;
+    -moz-animation-delay: 4s;
+    -moz-animation-duration: 1s;
+    -ms-animation-name: fader;
+    -ms-animation-delay: 4s;
+    -ms-animation-duration: 1s;
+    z-index: 20;
   }
-  #rotator3 a:nth-of-type(2) img {
-    -webkit-transform: translateZ(200px);
-    -moz-transform: translateZ(200px);
-    -ms-transform: translateZ(200px);
-  }
-  #rotator3 a:nth-of-type(3) img {
-    -webkit-transform: rotateX(90deg) translateZ(200px);
-    -moz-transform: rotateX(90deg) translateZ(200px);
-    -ms-transform: rotateX(90deg) translateZ(200px);
-  }
-  #rotator3 a:nth-of-type(n+4) { display: none; }
+  #stage4 a:nth-of-type(2) { z-index: 10; }
+  #stage4 a:nth-of-type(n+3) { display: none; }
 
-  @-webkit-keyframes rotator3 {
-    from { -webkit-transform: rotateX(0deg);  }
-    to   { -webkit-transform: rotateX(90deg); }
+  @-webkit-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
   }
-  @-moz-keyframes rotator3 {
-    from { -moz-transform: rotateX(0deg);  }
-    to   { -moz-transform: rotateX(90deg); }
+  @-moz-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
   }
-  @-ms-keyframes rotator3 {
-    from { -ms-transform: rotateX(0deg);  }
-    to   { -ms-transform: rotateX(90deg); }
-  }
-
-  #rotator3 {
-    -webkit-transform-origin: 0 101px;
-    -webkit-transform-style: preserve-3d;
-    -webkit-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
-    -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1s;
-    -moz-transform-origin: 0 101px;
-    -moz-transform-style: preserve-3d;
-    -moz-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
-    -moz-animation-duration: 2s;
-    -moz-animation-delay: 1s;
-    -ms-transform-origin: 0 101px;
-    -ms-transform-style: preserve-3d;
-    -ms-animation-timing-function: cubic-bezier(1, 0.2, 0.2, 1);
-    -ms-animation-duration: 2s;
-    -ms-animation-delay: 1s;
-  }
-  #rotator3:hover {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -ms-animation-play-state: paused;
+  @-ms-keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
   }
 
 </style>
 
-<div id="stage3">
-<div id="rotator3" style="-webkit-animation-name: rotator3; -moz-animation-name: rotator3;">
-<a href="/images/1.jpg"><img src="/images/1.jpg" height="379"></a>
-<a href="/images/2.jpg"><img src="/images/2.jpg" height="379"></a>
-<a href="/images/3.jpg"><img src="/images/3.jpg" height="379"></a>
-<a href="/images/4.jpg"><img src="/images/4.jpg" height="379"></a>
-<a href="/images/5.jpg"><img src="/images/5.jpg" height="379"></a>
-<a href="/images/6.jpg"><img src="/images/6.jpg" height="379"></a>
-<a href="/images/7.jpg"><img src="/images/7.jpg" height="379"></a>
-<a href="/images/8.jpg"><img src="/images/8.jpg" height="379"></a>
-</div>
+<div id="stage4">
+<a href="/images/1.jpg"><img src="/images/1.jpg" width="900" height="250"></a>
+<a href="/images/2.jpg"><img src="/images/2.jpg" width="900" height="250"></a>
+<a href="/images/3.jpg"><img src="/images/3.jpg" width="900" height="250"></a>
+<a href="/images/4.jpg"><img src="/images/4.jpg" width="900" height="250"></a>
+<a href="/images/5.jpg"><img src="/images/5.jpg" width="900" height="250"></a>
+<a href="/images/6.jpg"><img src="/images/6.jpg" width="900" height="250"></a>
+<a href="/images/7.jpg"><img src="/images/7.jpg" width="900" height="250"></a>
+<a href="/images/8.jpg"><img src="/images/8.jpg" width="900" height="250"></a>
 </div>
 
 <script type="text/javascript">
 
   document.addEventListener("DOMContentLoaded", function() {
 
-    var rotateComplete = function(e) {
-      with(target.style) {
-        webkitAnimationName = MozAnimationName = msAnimationName = "";
-      }
-      target.insertBefore(arr[arr.length - 1], arr[0]);
-      setTimeout(function(el) {
-        with(el.style) {
-          webkitAnimationName = MozAnimationName = msAnimationName = "rotator3";
-        }
-      }, 0, target);
-    };
+    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
 
-    var target = document.getElementById("rotator3");
-    var arr = target.getElementsByTagName("a");
-
-    target.addEventListener("webkitAnimationEnd", rotateComplete, false);
-    target.addEventListener("animationend", rotateComplete, false);
-    target.addEventListener("MSAnimationEnd", rotateComplete, false);
+    var stage = document.getElementById("stage4");
+    var arr = stage.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("webkitAnimationEnd", fadeComplete, false);
+      arr[i].addEventListener("animationend", fadeComplete, false);
+      arr[i].addEventListener("MSAnimationEnd", fadeComplete, false);
+    }
 
   }, false);
 
 </script>
-
-</div>
-<div class="span3">
-
 </div>
 
-</div>
- <div class="row-fluid">
-  <div class="span14">
+<br><br><br><br><br><br><br><br><br><br>
+  <div class="span12">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="main">
 <p>Interior Design Co. in Mumbai.</p> 
 
@@ -151,15 +106,13 @@ title: skline interiors
 <img src="/images/architect2.jpg">
 </div>
 
-  
+ </div> 
 </div>
 
 
   
 
-</div>
 
-</div>
 
 
 

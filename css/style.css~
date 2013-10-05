@@ -5,20 +5,44 @@ html, body {
 body{  
 	background-color: #111111;
   	margin:0px 0px;
-  	padding-top:30px;
-
-  
+  	padding-top:30px;  
 }
+
 .container {
+
         margin: 0 auto;
-        max-width: 800px;
+        max-width: 1000px;
          padding: 5px;
       }
+@font-face {
+  font-family: 'Frank the Architect';
+  src: url('/fonts/frankthearchitect.ttf');
+}
+
+
+#title{
+   font-family:  'frank the Architect', 'Helvetica', serif;
+       font-size:2em;
+       font-weight: 100;
+       color:#f6031a; 
+
+}
+
+/*.row-fluid {
+  max-width: 1000px;
+  background-color: #DBEAF3;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+}*/
 
 h1 {
 color: #fff;
 text-align:right;
 }
+
 ul , li {
   margin: 0;
   padding: 0;
@@ -68,7 +92,6 @@ line-height: 100px;
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
 border-radius: 50%;
-
 position:absolute;
 left:0px;
 top:0px;
@@ -142,9 +165,33 @@ left:400px;
 top: 0px;
 }
 
-.main {
-  background-color: #fff;
+
+.service {
+background-color: #262626;
+  color: #fff;
  padding: 30px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px -webkit-column-count: 3;
+ -moz-column-count: 3;
+  column-count: 3;
+ -webkit-column-gap: 2em;
+ -moz-column-gap: 2em;
+  column-gap: 2em;
+ -webkit-column-rule-width: 2em;
+ -moz-column-rule-width: 2em;
+  column-rule: 2em;
+
+}
+
+
+.main {
+background-color: #262626;
+  color: #fff;
+ padding: 30px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
   text-align: justify;
  -webkit-column-count: 3;
  -moz-column-count: 3;
@@ -155,9 +202,33 @@ top: 0px;
  -webkit-column-rule-width: 2em;
  -moz-column-rule-width: 2em;
   column-rule: 2em;
- 
 
 }
+
+.main1 {
+padding: 40px;
+padding-right: 120px;
+background-color: #262626;
+  color: #fff;
+text-align: justify;
+
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+  
+ 
+}
+
+.clients {
+  background-color: #262626;
+  padding: 40px;
+  text-align: center;
+}
+
+
+
+
+
 
 
 
